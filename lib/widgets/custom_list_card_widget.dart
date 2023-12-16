@@ -37,7 +37,7 @@ class CustomListCardWidget extends StatelessWidget {
                     loadingBuilder: (_, child, progress) {
                       if (progress == null) return child;
                       return CircularProgressIndicator
-                          .adaptive(); //adaptative muda de acordo com a plataforma android/ios,etc
+                          .adaptive(); 
                     },
                   ),
                 ),
@@ -54,7 +54,7 @@ class CustomListCardWidget extends StatelessWidget {
                       softWrap: true,
                       overflow: TextOverflow.visible,
                     ),
-                    //Spacer(), //ocupar o espaço e jogr o Widget abaixo pro final
+                    //Spacer(), 
                     Spacer(),
                     Text('Popularity: ${movie.popularity}'),
                     const SizedBox(height: 10),
