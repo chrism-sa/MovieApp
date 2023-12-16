@@ -54,10 +54,7 @@ class _HomePageState extends State<HomePage> {
                               border: OutlineInputBorder(),
                               hintText: "Search",
                               prefixIcon:
-                                  Icon(Icons.search), //icon at head of input
-                              //prefixIcon: Icon(Icons.people), //you can use prefixIcon property too
-                              //prefisIcon sets Icon inside the TextField border, 'icon' sets outside border.
-                              //suffixIcon: Icon(Icons.cancel) //icon at tail of input
+                                  Icon(Icons.search), 
                             ),
                           ),
                           const SizedBox(
